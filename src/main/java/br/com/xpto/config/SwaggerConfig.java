@@ -20,7 +20,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("br.com.estagioremoto"))
-                .paths(regex("/estagiario.*"))
+                .paths(regex("/estagiario. *"))
                 .build()
                 .apiInfo(metaInfo());
     }

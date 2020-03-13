@@ -14,7 +14,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping(value = "/cliente")
+@RequestMapping(value = "/cliente") 
 @Api(value = "API REST Cliente")
 @CrossOrigin(origins = "*")
 public class ClienteResource {	

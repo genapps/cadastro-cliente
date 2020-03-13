@@ -4,6 +4,6 @@ import java.util.List;
 
 import br.com.xpto.models.Cliente;
 
-public interface ClienteService {	
+public interface ClienteService {	 
 	List<Cliente> findAll();
 }

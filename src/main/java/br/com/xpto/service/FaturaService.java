@@ -4,6 +4,6 @@ import java.util.List;
 
 import br.com.xpto.models.Fatura;
 
-public interface FaturaService {	
+public interface FaturaService {	 
 	List<Fatura> findAll();
 }

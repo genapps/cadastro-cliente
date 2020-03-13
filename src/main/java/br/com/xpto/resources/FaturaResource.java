@@ -14,7 +14,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping(value = "/fatura")
+@RequestMapping(value = "/fatura") 
 @Api(value = "API REST Fatura")
 @CrossOrigin(origins = "*")
 public class FaturaResource {	

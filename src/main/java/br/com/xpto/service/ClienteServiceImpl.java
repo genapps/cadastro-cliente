@@ -9,7 +9,7 @@ import br.com.xpto.models.Cliente;
 import br.com.xpto.repository.CadastroClienteRepository;
 
 @Service
-public class ClienteServiceImpl implements ClienteService{
+public class ClienteServiceImpl implements ClienteService{ 
 	
 	@Autowired
 	CadastroClienteRepository clienteRepository;

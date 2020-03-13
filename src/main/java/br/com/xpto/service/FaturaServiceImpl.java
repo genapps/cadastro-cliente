@@ -9,7 +9,7 @@ import br.com.xpto.models.Fatura;
 import br.com.xpto.repository.CadastroFaturaRepository;
 
 @Service
-public class FaturaServiceImpl implements FaturaService{
+public class FaturaServiceImpl implements FaturaService{ 
 	
 	@Autowired
 	CadastroFaturaRepository cadastroFaturaRepository;
